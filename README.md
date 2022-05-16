@@ -1,6 +1,6 @@
 
 
-**2.1 Problem Definition**
+**Problem Definition**
 
 In This Modern Era, Due to development in the Internet, Billions of people connects With each Other on the Daily Basis, and Do Billions of Transactions in a Day, Post Billions of Photos, Stories, Tweets in a Day. And all these accessibilities are Available to everyone By Simply Entering Their Login Details.
 
@@ -30,6 +30,9 @@ Result – Any written physical thing can be got Lost, Can Be Damaged, can be de
 
 
 
+
+<br>
+
 **Now From All the Above Cases we Understand the Problems Which are:** 
 
 - **To not use an Easy Password.**
@@ -42,7 +45,7 @@ Result – Any written physical thing can be got Lost, Can Be Damaged, can be de
 
 
 
-2. **Project Overview**
+ **Project Overview**
 
 **Lockward** – In Short of Lock you Passwords. 
 
@@ -70,7 +73,7 @@ again in the app. Exported file will be encrypted so even someone stole it. the 
 - Backup and Restore Option
 - Free to Use
 
-2. **Planning and Tasks:**
+**Planning and Tasks:**
 
 We are going to use **Android Studio** as our main IDE to develop the application. Main language for the Backend processes we will be using **KOTLIN** and **XML** as our designing layout and for XML Values etc.
 
@@ -90,7 +93,7 @@ For Saving Encrypted Password and other offline data. we will be using **SQLite*
 
 
 
-2. **Scope of the Project:**
+ **Scope of the Project:**
 
 Firstly, I want to share a Realtime experience happened with me. As a core internet user, I also have too many logins and I have also saved mostly of my passwords on google passwords but one day Google’s servers were down and I was unable to login in many site.
 
@@ -101,32 +104,6 @@ For All the Users who find problem in Remembering the Password and won’t trust
 In India there are 70 Crore internet users and if in case every internet user has 10 accounts on average. it means these are 700 Crore plus account details to be saved.
 
 For all these people we want to develop an application from which they can safely saves our passwords. 
-
-
-2. **Marketing And Income Aspect:**
-
-As every Developer and Application company they know that if their project or project is an open source then we can’t charge for it. as the code of the product/project is available for public use. So, the best way to gain some profit is from the product is Through Donations.
-
-2. **Improvement:**
-
-The Scope for Improvement is Unlimited for our Project because of being an open-source project anyone can contribute in our project from Github Commits.
-
-
-
-
-
-
-
-2. **Definitions :**
-
-**Encryption :** Encryption is a means of securing digital data using one or more mathematical techniques, along with a password or "key" used to decrypt the information. The encryption process translates information using an algorithm that makes the original information unreadable.
-
-**Android Studio :** Android Studio is the official integrated development environment for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development.
-
-**KOTLIN :** Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library, but type inference allows its syntax to be more concise.
-
-**Figma :** Figma is a vector graphics editor and prototyping tool which is primarily web-based, with additional offline features enabled by desktop applications for macOS and Windows. The Figma mobile app for Android and iOS allow viewing and interacting with Figma prototypes in real-time on mobile devices.
-
 
 
 
