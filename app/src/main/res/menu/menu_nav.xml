@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    <item android:title="Database">
+<menu>
+    <item
+        android:id="@+id/nav_backup"
+        android:title="Back Up"
+        android:icon="@drawable/ic_backup"
+        />
+    <item
+        android:id="@+id/nav_Restore"
+        android:title="Restore"
+        android:icon="@drawable/ic_restore"/>
+    </menu></item>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_Settings"
+                android:title="Settings"
+                android:icon="@drawable/ic_settings"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Others">
+        <menu>
+            <item android:title="About"
+                android:id="@+id/nav_about"/>
+            <item android:title="Help"
+                android:id="@+id/help"/>
+        </menu>
+    </item>
+
+</menu>

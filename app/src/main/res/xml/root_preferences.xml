@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Security"
+        app:icon="@drawable/ic_settings">
+
+        <SwitchPreferenceCompat
+            app:key="screenshot"
+            app:title="Allow Screenshot"
+            app:summaryOff="Taking Screenshot has been Blocked."
+            app:summaryOn="You can Take Screenshot of the Passwords."/>
+
+        <SwitchPreferenceCompat
+            app:key="listviewencrption"
+            app:title="Show Decrypted Password"
+            app:useSimpleSummaryProvider="true"
+            app:summaryOff="Defaults: to see passwords you will need to click on Passowrd from the list."
+            app:summaryOn="You can directly see the password, when in list."/>
+
+        <SwitchPreferenceCompat
+            app:key="bio"
+            app:title="Enable FingerPrint"
+            app:icon="@drawable/ic_biometric_black"
+            app:useSimpleSummaryProvider="true"
+            app:summaryOff="FingerPrint Lock is Disabled."
+            app:summaryOn="Fingerprint Lock is Enabled."/>
+            />
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="DataBase">
+
+        <SwitchPreferenceCompat
+            app:key="autobackup"
+            app:title="Auto Backup"
+            app:summaryOff="Backup can be created manually Now."
+            app:summaryOn="Backup Will be Updated Automatically on Adding or Updating Password."/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Appearance">
+
+        <SwitchPreferenceCompat
+            app:key="tmode"
+            app:title="Manual Theme"
+            app:summaryOff="Theme will automatically Change as Per Device State."
+            app:summaryOn="Manual Mode is Enabled."/>
+
+        <SwitchPreferenceCompat
+            app:key="darkmode"
+            app:dependency="tmode"
+            app:title="Dark Mode" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lockward</string>
+    <string name="welcome">Welcome to <br></br>LockWard.</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="about">Lockward - An Password Manager Application Developed as a Project for Chandigarh University.  Developed By Lakshraj &amp; Bhaskar Saini./n For More : www.Github.com/lakshrajj/lockward</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddData">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="600dp"
+        android:layout_height="550dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="-125dp"
+        android:layout_marginEnd="-180dp"
+        android:rotation="180"
+        app:srcCompat="@drawable/circle1" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="-260dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="-400dp"
+        android:rotation="0"
+        app:srcCompat="@drawable/circle1" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-10dp"
+        android:src="@drawable/ic_lockward" />
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/box1"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:layoutAnimation="@anim/item_layout_anim"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/PassofET"
+            style="@style/EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Title"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/UsernameET"
+            style="@style/EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Pass1ET"
+            style="@style/EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/Pass2ET"
+            style="@style/EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="textPassword" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:elevation="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Save" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/adddataTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll3"
+        android:layout_centerHorizontal="true"
+        android:text="Save a New Password."
+        style="@style/TextView"
+        android:textSize="40dp"
+
+        android:textStyle="bold" />
+
+</RelativeLayout>

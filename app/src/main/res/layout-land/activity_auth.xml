@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="-180dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginEnd="100dp"
+        android:rotation="180"
+        app:srcCompat="@drawable/circle1" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="450dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="-250dp"
+        android:layout_marginBottom="-600dp"
+        app:srcCompat="@drawable/circle1" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-10dp"
+        android:src="@drawable/ic_lockward" />
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="370dp"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/box1"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/inputpin"
+            style="@style/EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="Enter Security Pin"
+            android:inputType="numberPassword"
+            android:letterSpacing="0.1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/enterPin"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:elevation="5dp"
+            android:text="Unlock" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_biometric_black"
+            android:backgroundTint="@color/ttext" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/trebuc"
+        android:text="Unlock to View Passwords."
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

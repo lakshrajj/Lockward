@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentPadding="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="@color/box">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="5dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="5dp"
+            android:layout_toLeftOf="@id/moreBtn">
+
+            <TextView
+                android:id="@+id/PassofTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Passof"
+                style="@style/TextView"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/UsernameTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username" />
+            <TextView
+                android:id="@+id/PasswordTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/moreBtn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:elevation="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="5dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_more" />
+
+        <ImageButton
+            android:id="@+id/CopyBtn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:elevation="4dp"
+            android:layout_below="@id/moreBtn"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_copy"
+            />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
