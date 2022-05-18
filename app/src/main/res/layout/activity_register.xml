@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="576dp"
+        android:layout_height="569dp"
+        android:layout_marginBottom="580dp"
+        android:background="@drawable/c5"
+        android:layout_marginStart="-40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="512dp"
+        android:layout_height="388dp"
+        android:layout_marginStart="-40dp"
+        android:layout_marginBottom="640dp"
+        android:background="@drawable/c1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="974dp"
+        android:layout_height="474dp"
+        android:layout_marginTop="578dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/c4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:background="@drawable/r3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#E5D5D7"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/regLL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/regLL"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/regName"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:textColor="@color/dpurpal"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/lpurpal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/r2"
+            android:inputType="textPersonName"
+            android:paddingHorizontal="10dp"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/regEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/r2"
+            android:textColor="@color/dpurpal"
+            android:paddingHorizontal="10dp"
+            android:textColorHint="@color/lpurpal"
+            android:layout_marginBottom="10dp"
+            android:hint="Email"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/regPass"
+            android:layout_width="wrap_content"
+            android:textColorHint="@color/lpurpal"
+            android:textColor="@color/dpurpal"
+            android:paddingHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/r2"
+            android:layout_height="35dp"
+            android:hint="Password"
+            android:ems="10"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/regPass2"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/dpurpal"
+            android:paddingHorizontal="10dp"
+            android:textColorHint="@color/lpurpal"
+            android:hint="Re-enter Password"
+            android:background="@drawable/r2"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/newregBtn"
+            android:layout_width="wrap_content"
+            android:textColor="@color/dpurpal"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:backgroundTint="#D1788F"
+            android:layout_height="wrap_content"
+            android:text="Register"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
