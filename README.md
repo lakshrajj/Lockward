@@ -47,8 +47,6 @@ Result – Any written physical thing can be got Lost, Can Be Damaged, can be de
 
 
 
- **Project Overview**
-
 **Lockward** – In Short of Lock you Passwords. 
 
 Our Goal is Simple which is to overcome the Disadvantages of the Above-mentioned Cases.
@@ -74,42 +72,6 @@ again in the app. Exported file will be encrypted so even someone stole it. the 
 - Custom Encryption Key
 - Backup and Restore Option
 - Free to Use
-
-**Planning and Tasks:**
-
-We are going to use **Android Studio** as our main IDE to develop the application. Main language for the Backend processes we will be using **KOTLIN** and **XML** as our designing layout and for XML Values etc.
-
-
-
-
-
-For UI/UX designing we are going to use **Figma**. Then design from figma will be implemented to the app through XML formatted Code.
-
-For Saving Encrypted Password and other offline data. we will be using **SQLite** as we can run all SQL related Actions on it later.
-
-
-
-
-
-
-
-
-
- **Scope of the Project:**
-
-Firstly, I want to share a Realtime experience happened with me. As a core internet user, I also have too many logins and I have also saved mostly of my passwords on google passwords but one day Google’s servers were down and I was unable to login in many site.
-
-Outcome – What we want is, a Password saver which is safe and also Works without any servers. Which our App will do.
-
-For All the Users who find problem in Remembering the Password and won’t trust third party Services like NORD pass and Google Passwords.
-
-In India there are 70 Crore internet users and if in case every internet user has 10 accounts on average. it means these are 700 Crore plus account details to be saved.
-
-For all these people we want to develop an application from which they can safely saves our passwords. 
-
-
-
-
 
 
 
