@@ -22,8 +22,6 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.OnLifecycleEvent
 import androidx.preference.PreferenceManager
 import com.ooolrs.lockward.db.Constants
 import com.ooolrs.lockward.db.Model
@@ -31,7 +29,6 @@ import com.ooolrs.lockward.db.RVAdapter
 import com.ooolrs.lockward.db.SQLHelper
 import com.opencsv.CSVReader
 import kotlinx.android.synthetic.main.activity_home.*
-import kotlinx.android.synthetic.main.row_records.*
 import java.io.File
 import java.io.FileReader
 import java.io.FileWriter
@@ -119,7 +116,11 @@ class HomeActivity : AppCompatActivity() {
                 shared2?.edit()?.putBoolean("Flow",true)?.apply()
                 startActivity(Intent(this,about::class.java))
                 drawer.close()
+            }else if(it.itemId==R.id.help){
+                val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/lakshrajj/Lockward"))
+                startActivity(browserIntent)
             }
+
         true}
     }
 

@@ -93,7 +93,7 @@
             android:layout_marginHorizontal="20dp"
             style="@style/button"
             android:elevation="10dp"
-            android:text="Button" />
+            android:text="Save" />
     </LinearLayout>
 
     <TextView
